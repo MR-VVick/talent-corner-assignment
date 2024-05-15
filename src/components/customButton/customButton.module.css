@@ -1,0 +1,30 @@
+.container{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(238, 238, 240);
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px;
+    border-radius: 0.9375rem;
+    padding: 0.5rem;
+    transform: translateY(0px);
+    transition: transform 500ms ease 0s, box-shadow 500ms ease 0s;
+}
+.container:hover{
+    transform: translateY(-0.125rem);
+}
+.iconContainer{
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.625rem;
+}
+.text{
+    font-size: 0.9375rem !important;
+    line-height: 1.25rem !important;
+    letter-spacing: 0px !important;
+    font-weight: 500 !important;
+    padding: 0.75rem;
+}
