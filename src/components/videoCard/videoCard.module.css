@@ -1,0 +1,94 @@
+.container{
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    position: relative;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    transition: box-shadow 0.1s ease-in-out 0s;
+}
+.container:hover{
+    opacity: 1;
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.027) 0px 41.7776px 33.4221px, rgba(0, 0, 0, 0.035) 0px 22.3363px 17.869px, rgba(0, 0, 0, 0.043) 0px 12.5216px 10.0172px, rgba(0, 0, 0, 0.05) 0px 6.6501px 5.32008px;
+    
+}
+.thumbnailContainer{
+    position: absolute;
+    inset: 0px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.thumbnail{
+    max-width: 100%;
+    max-height: 100%;
+    z-index: 3;
+    grid-area: 1 / 1 / 1 / 1;
+    overflow: hidden;
+    justify-self: center;
+    object-fit: cover;
+}
+.chipContainer{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 4;
+    gap: 2px;
+    display: flex;
+}
+.chip{
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 116, 52);
+    font-family: Inter, sans-serif;
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    letter-spacing: 0px;
+    font-weight: 600;
+    padding: 2px 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.timestamp{
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    letter-spacing: 0px;
+    font-weight: 600;
+    padding: 2px 4px;
+    border-radius: 5px;
+    background: rgba(51, 51, 51, 0.6);
+    backdrop-filter: blur(15px);
+    color: rgb(255, 255, 255);
+    z-index: 4;
+}
+.title{
+    font-size: 0.8125rem !important;
+    line-height: 1rem !important;
+    letter-spacing: 0px !important;
+    font-weight: 500 !important;
+    color: rgb(24, 25, 27);
+    margin-bottom: 2px !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+}
+.caption{
+    font-size: 0.71875rem !important;
+    line-height: 0.75rem !important;
+    letter-spacing: 0.01em !important;
+    font-weight: 400 !important;
+    color: rgb(165, 167, 173);
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+}

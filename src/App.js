@@ -1,9 +1,8 @@
-import './App.css';
 import Dashboard from './pages/dashboard/Dashboard';
 
 function App() {
   return (
-    <div className="App">
+    <div style={{height: '100%'}}>
       <Dashboard />
     </div>
   );

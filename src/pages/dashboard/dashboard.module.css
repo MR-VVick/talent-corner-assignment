@@ -1,3 +1,9 @@
+.mainContainer{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow-y: auto;
+}
 .subtitle{
     font-size: 1.5rem !important;
     line-height: 1.75rem !important;
@@ -5,4 +11,13 @@
     font-weight: 400 !important;
     text-align: start;
     margin-bottom: 0.8rem !important;
+}
+.caption{
+    font-size: 0.71875rem !important;
+    line-height: 0.75rem !important;
+    letter-spacing: 0.01em !important;
+    font-weight: 400 !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
 }

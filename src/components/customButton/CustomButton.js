@@ -18,7 +18,7 @@ const CustomButton = ({color, background, text, icon}) => {
         </Box>
         <Typography 
             variant='body1' 
-            className={styles.text}>{text}</Typography>
+            sx={{padding: '0.75rem'}}>{text}</Typography>
     </Box>
   )
 }
