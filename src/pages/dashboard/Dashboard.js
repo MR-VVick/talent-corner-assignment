@@ -13,9 +13,11 @@ const Dashboard = () => {
             <Grid item xs={12} md={2.4}>
                 <SideNav />
             </Grid>
-            <Grid item xs={12} md={9.6} mb={5}>
+            <Grid item xs={12} md={9.6}>
                 <Box display='flex' gap={3} p={2} justifyContent='flex-end'>
-                    <SearchBar />
+                    <Box mr='38px'>
+                        <SearchBar />
+                    </Box>
                     <Avatar />
                 </Box>
                 <Box sx={{margin: '2.5rem 2.5rem 0px'}}>
@@ -46,11 +48,11 @@ const Dashboard = () => {
                         </Box>
                     </Box>
                 </Box>
-                <Grid container rowSpacing={3} columnSpacing={3} sx={{mt: '1rem', p: '0 2.5rem'}}>
-                    <Grid item xs={12} md={4.5}>
+                <Grid container rowSpacing={3} columnSpacing={3} sx={{mt: '1rem', mb: 5, p: '0 2.5rem'}}>
+                    <Grid item xs={12} sm={5} md={4.5}>
                         <VideoCard /> 
                     </Grid>
-                    <Grid item xs={12} md={4.5}>
+                    <Grid item xs={12} sm={5} md={4.5}>
                         <VideoCard /> 
                     </Grid>
                     {/* <Grid item xs={12} md={4.5}>
