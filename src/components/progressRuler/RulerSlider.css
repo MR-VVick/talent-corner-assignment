@@ -1,0 +1,35 @@
+.ruler-slider-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .ruler {
+    position: relative;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .ruler-mark {
+    position: absolute;
+    top: 0;
+    width: 1px;
+    height: 10px;
+    background-color: #888;
+  }
+  
+  .slider-thumb {
+    position: absolute;
+    top: -5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #3880ff;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .slider {
+    width: 100%;
+  }
+  

@@ -11,12 +11,12 @@ export const MENU_ITEMS = [
         key: 2,
         label: 'Templates',
         icon: <IconTemplate />,
-        link: '/'
+        link: ''
     },
     {
         key: 3,
         label: 'All Videos',
         icon: <IconFolder />,
-        link: '/'
+        link: ''
     },
 ]

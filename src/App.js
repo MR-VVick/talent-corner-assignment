@@ -1,9 +1,9 @@
-import Dashboard from './pages/dashboard/Dashboard';
+import PublicRoutes from './routes/PublicRoutes';
 
 function App() {
   return (
     <div style={{height: '100%'}}>
-      <Dashboard />
+      <PublicRoutes />
     </div>
   );
 }

@@ -1,0 +1,25 @@
+.timestamp{
+    font-size: 0.71875rem;
+    letter-spacing: 0.01em;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background: rgba(25, 32, 51, 0.75);
+    border-radius: 4px;
+    position: absolute;
+    left: 0.5rem;
+    bottom: 0.5rem;
+    padding: 0.25rem;
+    line-height: 1;
+    z-index: 2;
+    pointer-events: none;
+}
+.caption{
+    font-size: 0.71875rem !important;
+    line-height: 0.75rem !important;
+    letter-spacing: 0.01em !important;
+    font-weight: 400 !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    margin-top: 6px !important;
+}
